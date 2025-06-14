@@ -39,6 +39,8 @@ public class FirstPersonController : MonoBehaviour
     private float pitch = 0.0f;
     private Image crosshairObject;
 
+    public static bool kostilDlaMenu;
+
     #region Camera Zoom Variables
 
     public bool enableZoom = true;
@@ -151,6 +153,7 @@ public class FirstPersonController : MonoBehaviour
 
     void Start()
     {
+        kostilDlaMenu = true;
         if(lockCursor)
         {
             Cursor.lockState = CursorLockMode.Locked;
@@ -361,6 +364,37 @@ public class FirstPersonController : MonoBehaviour
         if(enableHeadBob)
         {
             HeadBob();
+        }
+
+        croshair();
+    }
+
+    public void croshair() // пауза
+    {
+        if (kostilDlaMenu)
+            lockCursor = true;
+
+        if (Input.GetKeyUp(KeyCode.Escape)) 
+        {
+            if (lockCursor)
+                lockCursor = false;
+
+            else
+                lockCursor = true;
+        }
+
+        if (lockCursor)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            playerMananger.is_menu_turnOn = false;
+            kostilDlaMenu = true;
+            Time.timeScale = 1;
+        }
+        else {
+            Cursor.lockState = CursorLockMode.None;
+            playerMananger.is_menu_turnOn = true;
+            kostilDlaMenu = false;
+            Time.timeScale = 0;
         }
     }
 
