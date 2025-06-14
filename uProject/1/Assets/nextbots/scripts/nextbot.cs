@@ -11,13 +11,14 @@ public class nextbot : MonoBehaviour
     private bool isPlayerInContact = false;
     private float nextDamageTime = 0f;
     public float damageInterval = 0.1f; // Интервал между уроном в секундах
+    [SerializeField] private float speed;
 
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         agent.destination = player.transform.position;
         

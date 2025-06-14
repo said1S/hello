@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "E:\\docs\\hello\\uProject\\1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|E:\\docs\\hello\\uProject\\1\\assets\\modularfirstpersoncontroller\\firstpersoncontroller\\playermananger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|E:\\docs\\hello\\uProject\\1\\assets\\nextbots\\scripts\\nextbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|solutionrelative:assets\\nextbots\\scripts\\nextbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|e:\\docs\\hello\\uproject\\1\\assets\\modularfirstpersoncontroller\\firstpersoncontroller\\playermananger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|solutionrelative:assets\\modularfirstpersoncontroller\\firstpersoncontroller\\playermananger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|e:\\docs\\hello\\uproject\\1\\assets\\scr\\mainmenumenengere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|E:\\docs\\hello\\uProject\\1\\assets\\scr\\mainmenumenengere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|solutionrelative:assets\\scr\\mainmenumenengere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,12 +19,8 @@
       "RelativeMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|solutionrelative:assets\\modularfirstpersoncontroller\\firstpersoncontroller\\coins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|e:\\docs\\hello\\uproject\\1\\assets\\modularfirstpersoncontroller\\firstpersoncontroller\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|E:\\docs\\hello\\uProject\\1\\assets\\modularfirstpersoncontroller\\firstpersoncontroller\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|solutionrelative:assets\\modularfirstpersoncontroller\\firstpersoncontroller\\firstpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|E:\\docs\\hello\\uProject\\1\\assets\\nextbots\\scripts\\nextbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77BB0C59-6EDF-441D-78FC-8511ED0AC6CC}|Assembly-CSharp.csproj|solutionrelative:assets\\nextbots\\scripts\\nextbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "mainMenuMenengere.cs",
               "DocumentMoniker": "E:\\docs\\hello\\uProject\\1\\Assets\\scr\\mainMenuMenengere.cs",
               "RelativeDocumentMoniker": "Assets\\scr\\mainMenuMenengere.cs",
@@ -42,12 +42,11 @@
               "RelativeToolTip": "Assets\\scr\\mainMenuMenengere.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:58:14.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T20:58:14.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "coins.cs",
               "DocumentMoniker": "E:\\docs\\hello\\uProject\\1\\Assets\\ModularFirstPersonController\\FirstPersonController\\coins.cs",
               "RelativeDocumentMoniker": "Assets\\ModularFirstPersonController\\FirstPersonController\\coins.cs",
@@ -55,12 +54,11 @@
               "RelativeToolTip": "Assets\\ModularFirstPersonController\\FirstPersonController\\coins.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T17:03:49.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T17:03:49.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "playerMananger.cs",
               "DocumentMoniker": "E:\\docs\\hello\\uProject\\1\\Assets\\ModularFirstPersonController\\FirstPersonController\\playerMananger.cs",
               "RelativeDocumentMoniker": "Assets\\ModularFirstPersonController\\FirstPersonController\\playerMananger.cs",
@@ -73,20 +71,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "nextbot.cs",
               "DocumentMoniker": "E:\\docs\\hello\\uProject\\1\\Assets\\nextbots\\scripts\\nextbot.cs",
               "RelativeDocumentMoniker": "Assets\\nextbots\\scripts\\nextbot.cs",
               "ToolTip": "E:\\docs\\hello\\uProject\\1\\Assets\\nextbots\\scripts\\nextbot.cs",
               "RelativeToolTip": "Assets\\nextbots\\scripts\\nextbot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T21:33:45.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FirstPersonController.cs",
               "DocumentMoniker": "E:\\docs\\hello\\uProject\\1\\Assets\\ModularFirstPersonController\\FirstPersonController\\FirstPersonController.cs",
               "RelativeDocumentMoniker": "Assets\\ModularFirstPersonController\\FirstPersonController\\FirstPersonController.cs",
@@ -94,8 +92,7 @@
               "RelativeToolTip": "Assets\\ModularFirstPersonController\\FirstPersonController\\FirstPersonController.cs",
               "ViewState": "AQIAAHMBAAAAAAAAAAA8wIYBAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T20:41:34.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T20:41:34.769Z"
             }
           ]
         }
