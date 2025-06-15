@@ -8,9 +8,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Unity.VisualScripting;
+
 
 #if UNITY_EDITOR
-    using UnityEditor;
+using UnityEditor;
     using System.Net;
 #endif
 
@@ -168,6 +170,13 @@ public class FirstPersonController : MonoBehaviour
         {
             crosshairObject.gameObject.SetActive(false);
         }
+
+        ////// костыль ебанный 
+        Cursor.lockState = CursorLockMode.Locked;
+        playerMananger.is_menu_turnOn = false;
+        kostilDlaMenu = true;
+        Time.timeScale = 1;
+        //////
 
         #region Sprint Bar
 

@@ -361,6 +361,8 @@
 "Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
 "Assets/ModularFirstPersonController/FirstPersonController/playerMananger.cs"
 "Assets/nextbots/scripts/nextbot.cs"
+"Assets/scr/donateCoins.cs"
+"Assets/scr/Donate_mananger.cs"
 "Assets/scr/mainMenuMenengere.cs"
 -langversion:9.0
 /deterministic

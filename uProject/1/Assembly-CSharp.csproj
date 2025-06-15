@@ -62,8 +62,10 @@
   <ItemGroup>
     <Compile Include="Assets\ModularFirstPersonController\FirstPersonController\coins.cs" />
     <Compile Include="Assets\ModularFirstPersonController\FirstPersonController\playerMananger.cs" />
+    <Compile Include="Assets\scr\donateCoins.cs" />
     <Compile Include="Assets\nextbots\scripts\nextbot.cs" />
     <Compile Include="Assets\scr\mainMenuMenengere.cs" />
+    <Compile Include="Assets\scr\Donate_mananger.cs" />
     <Compile Include="Assets\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs" />
   </ItemGroup>
   <ItemGroup>

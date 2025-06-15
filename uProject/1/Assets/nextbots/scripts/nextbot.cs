@@ -36,7 +36,7 @@ public class nextbot : MonoBehaviour
         isPlayerInContact = true;
         
         // Оригинальный урон при столкновении
-        playerMananger.Damage(damageCount);
+       playerMananger.Damage(damageCount);
         
         // Устанавливаем время следующего урона
         nextDamageTime = Time.time + damageInterval;

@@ -6,7 +6,7 @@ public class coins : MonoBehaviour
 {
     private void OnCollisionEnter(Collision Player)
     {
-        playerMananger.coins++;
+       playerMananger.coins++;
         Destroy(gameObject);
     }
 }
