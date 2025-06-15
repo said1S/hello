@@ -6,8 +6,6 @@ ScriptsOnlyBuild:
     - mainMenuMenengere
     - nextbot
     - playerMananger
-    Unity.AI.Navigation.Editor.dll:
-    - Unity.AI.Navigation.Editor.NavMeshAssetManager
     Unity.AI.Navigation.dll:
     - Unity.AI.Navigation.NavMeshSurface
     Unity.Rider.Editor.dll:
@@ -67,9 +65,15 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
   methodsToPreserve:
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: mainMenuMenengere
     methodName: sceneChange
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: playerMananger
     methodName: cont
@@ -115,27 +119,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 2630}
+      Script: {instanceID: 2632}
     - Class: 114
-      Script: {instanceID: 2836}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 3142}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 4008}
+      Script: {instanceID: 3342}
     - Class: 114
-      Script: {instanceID: 4672}
+      Script: {instanceID: 4012}
     - Class: 114
-      Script: {instanceID: 5092}
+      Script: {instanceID: 4676}
     - Class: 114
-      Script: {instanceID: 5272}
+      Script: {instanceID: 5096}
     - Class: 114
-      Script: {instanceID: 5828}
+      Script: {instanceID: 5276}
     - Class: 114
-      Script: {instanceID: 5890}
+      Script: {instanceID: 5832}
     - Class: 114
-      Script: {instanceID: 6160}
+      Script: {instanceID: 5894}
     - Class: 114
-      Script: {instanceID: 27472}
+      Script: {instanceID: 6164}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -188,25 +192,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 2208}
+      Script: {instanceID: 2126}
     - Class: 114
-      Script: {instanceID: 2630}
+      Script: {instanceID: 2210}
     - Class: 114
-      Script: {instanceID: 2836}
+      Script: {instanceID: 2632}
     - Class: 114
-      Script: {instanceID: 3142}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 4130}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 4388}
+      Script: {instanceID: 4134}
     - Class: 114
-      Script: {instanceID: 5092}
+      Script: {instanceID: 4392}
     - Class: 114
-      Script: {instanceID: 5828}
+      Script: {instanceID: 5096}
     - Class: 114
-      Script: {instanceID: 6160}
+      Script: {instanceID: 5832}
     - Class: 114
-      Script: {instanceID: 34114}
+      Script: {instanceID: 6164}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -282,6 +286,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 376991d4148dc3a662213b4c34655e35
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: mainMenuMenengere
   - hash:
       serializedVersion: 2
       Hash: b12640dfdb5966813e9dd838893e6c4a
@@ -482,6 +492,12 @@ ScriptsOnlyBuild:
     className: VariablesAsset
   - hash:
       serializedVersion: 2
+      Hash: 474305d0b549f992451ff8f2682e5e45
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: coins
+  - hash:
+      serializedVersion: 2
       Hash: 7bdff9e91edfd9600f92a185def7e34a
     assemblyName: Unity.VisualScripting.Flow
     namespaceName: Unity.VisualScripting
@@ -644,7 +660,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 8cb04ec69c10b241b56d1593ba0247b3
+      Hash: f1850c1335e45f5c7a536a5f19289597
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: nextbot
@@ -1086,18 +1102,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 474305d0b549f992451ff8f2682e5e45
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: coins
-  - hash:
-      serializedVersion: 2
-      Hash: 376991d4148dc3a662213b4c34655e35
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: mainMenuMenengere
   platform: 19
   scenePathNames:
   - Assets/Scenes/menu.unity
